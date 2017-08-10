@@ -29,10 +29,16 @@ public:
     }
 
     void moveTo(Point* target){
+        if(target == nullptr)
+            return;
+
         for(Warrior* &tmp : group)
             tmp->moveTo(target);
     }
     void attackTo(Warrior* target){
+        if(target == nullptr)
+            return;
+
         for(Warrior* &tmp : group){
             tmp->attack(target);
         }
@@ -40,7 +46,7 @@ public:
     //離target最遠
     Warrior* frontBy(Point target){
         int max = INT_MIN;
-        Warrior* front;
+        Warrior* front = nullptr;
         for(Warrior* tmp : group){
             if(abs(tmp->getValue()-target.getValue()) > max){
                 front = tmp;
@@ -98,9 +104,6 @@ int main()
         //顯示勝負
         if(A.size()==0)cout<<"A lose\n";
         if(B.size()==0)cout<<"B lose\n";
-
-        //問題
-        //???當其中一方輸了後 會自己打自己???
 
         A.output();
         B.output();
