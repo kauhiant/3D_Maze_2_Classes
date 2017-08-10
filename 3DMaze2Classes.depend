@@ -65,7 +65,7 @@
 1502351119 source:c:\users\kauhia\desktop\3d maze 2 classes\src\warrior.cpp
 	"Warrior.h"
 
-1502351081 source:c:\users\kauhia\desktop\3d maze 2 classes\main.cpp
+1502352339 source:c:\users\kauhia\desktop\3d maze 2 classes\main.cpp
 	<iostream>
 	<vector>
 	<cmath>
@@ -74,4 +74,10 @@
 	"Castle.h"
 	"Sword.h"
 	"Arrow.h"
+	"Warriors.h"
+
+1502352348 c:\users\kauhia\desktop\3d maze 2 classes\include\warriors.h
+	<vector>
+	"Point.h"
+	"Warrior.h"
 

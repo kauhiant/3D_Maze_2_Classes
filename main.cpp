@@ -7,67 +7,8 @@
 #include "Castle.h"
 #include "Sword.h"
 #include "Arrow.h"
+#include "Warriors.h"
 using namespace std;
-
-class Warriors{
-private:
-    vector<Warrior*> group;
-    int initPosition;//no sure need or not need
-public:
-    Warriors(){}
-    void add(Warrior* obj){
-        group.push_back(obj);
-    }
-    int size(){
-        return group.size();
-    }
-    void output(){
-        cout<<endl;
-        for(Warrior* &tmp : group)
-            cout<<" value="<<tmp->getValue()<<"\tHP="<<tmp->getHP()<<'\n';
-        cout<<endl;
-    }
-
-    void moveTo(Point* target){
-        if(target == nullptr)
-            return;
-
-        for(Warrior* &tmp : group)
-            tmp->moveTo(target);
-    }
-    void attackTo(Warrior* target){
-        if(target == nullptr)
-            return;
-
-        for(Warrior* &tmp : group){
-            tmp->attack(target);
-        }
-    }
-    //離target最遠
-    Warrior* frontBy(Point target){
-        int max = INT_MIN;
-        Warrior* front = nullptr;
-        for(Warrior* tmp : group){
-            if(abs(tmp->getValue()-target.getValue()) > max){
-                front = tmp;
-                max = abs(tmp->getValue()-target.getValue());
-            }
-        }
-        return front;
-    }
-
-    //把死掉的移除掉
-    void killDeadedWarrior(){
-        for(int i=0; i<group.size(); ++i){
-            if(group[i]->getHP() == 0){
-                delete group[i];
-                group.erase(group.begin()+i);
-                --i;
-            }
-        }
-    }
-
-};
 
 int main()
 {

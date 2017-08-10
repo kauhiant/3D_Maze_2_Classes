@@ -39,12 +39,14 @@
 		<Unit filename="include/Point.h" />
 		<Unit filename="include/Sword.h" />
 		<Unit filename="include/Warrior.h" />
+		<Unit filename="include/Warriors.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/Arrow.cpp" />
 		<Unit filename="src/Castle.cpp" />
 		<Unit filename="src/Point.cpp" />
 		<Unit filename="src/Sword.cpp" />
 		<Unit filename="src/Warrior.cpp" />
+		<Unit filename="src/Warriors.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />
