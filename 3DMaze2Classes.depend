@@ -36,3 +36,42 @@
 1502251706 d:\文件\c++研究\3dmaze2classes\include\arrow.h
 	<Warrior.h>
 
+1502349115 source:c:\users\kauhia\desktop\3d maze 2 classes\src\arrow.cpp
+	"Arrow.h"
+
+1502251706 c:\users\kauhia\desktop\3d maze 2 classes\include\arrow.h
+	<Warrior.h>
+
+1502350274 c:\users\kauhia\desktop\3d maze 2 classes\include\warrior.h
+	<Point.h>
+
+1502350346 c:\users\kauhia\desktop\3d maze 2 classes\include\point.h
+
+1502250102 source:c:\users\kauhia\desktop\3d maze 2 classes\src\castle.cpp
+	"Castle.h"
+
+1502250088 c:\users\kauhia\desktop\3d maze 2 classes\include\castle.h
+	<Warrior.h>
+
+1502349701 source:c:\users\kauhia\desktop\3d maze 2 classes\src\point.cpp
+	"Point.h"
+
+1502251439 source:c:\users\kauhia\desktop\3d maze 2 classes\src\sword.cpp
+	"Sword.h"
+
+1502251347 c:\users\kauhia\desktop\3d maze 2 classes\include\sword.h
+	<Warrior.h>
+
+1502350328 source:c:\users\kauhia\desktop\3d maze 2 classes\src\warrior.cpp
+	"Warrior.h"
+
+1502351081 source:c:\users\kauhia\desktop\3d maze 2 classes\main.cpp
+	<iostream>
+	<vector>
+	<cmath>
+	"Point.h"
+	"Warrior.h"
+	"Castle.h"
+	"Sword.h"
+	"Arrow.h"
+
