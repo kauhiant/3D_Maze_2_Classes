@@ -1,0 +1,38 @@
+# depslib dependency file v1.0
+1502252061 source:d:\文件\c++研究\3dmaze2classes\main.cpp
+	<iostream>
+	"Point.h"
+	"Warrior.h"
+	"Castle.h"
+	"Sword.h"
+	"Arrow.h"
+
+1502252103 source:d:\文件\c++研究\3dmaze2classes\src\point.cpp
+	"Point.h"
+
+1502252103 d:\文件\c++研究\3dmaze2classes\include\point.h
+
+1502252118 source:d:\文件\c++研究\3dmaze2classes\src\warrior.cpp
+	"Warrior.h"
+
+1502251122 d:\文件\c++研究\3dmaze2classes\include\warrior.h
+	<Point.h>
+
+1502250102 source:d:\文件\c++研究\3dmaze2classes\src\castle.cpp
+	"Castle.h"
+
+1502250088 d:\文件\c++研究\3dmaze2classes\include\castle.h
+	<Warrior.h>
+
+1502251439 source:d:\文件\c++研究\3dmaze2classes\src\sword.cpp
+	"Sword.h"
+
+1502251347 d:\文件\c++研究\3dmaze2classes\include\sword.h
+	<Warrior.h>
+
+1502251717 source:d:\文件\c++研究\3dmaze2classes\src\arrow.cpp
+	"Arrow.h"
+
+1502251706 d:\文件\c++研究\3dmaze2classes\include\arrow.h
+	<Warrior.h>
+
