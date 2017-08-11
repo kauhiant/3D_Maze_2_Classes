@@ -1,17 +1,17 @@
 #include "Warriors.h"
 #include <iostream>
 #include <cmath>
-Warriors::Warriors()
-{
-    //ctor
-}
+
+Warriors::Warriors(Point Field)
+    :Field(Field){}
 
 Warriors::~Warriors()
 {
     //dtor
 }
 void Warriors::add(Warrior* obj){
-        group.push_back(obj);
+    obj->setValue(Field.getValue());
+    group.push_back(obj);
 }
 int Warriors::size(){
     return group.size();

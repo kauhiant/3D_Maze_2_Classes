@@ -7,7 +7,7 @@
 class Sword : public Warrior
 {
     public:
-        Sword(int position);
+        Sword();
         virtual ~Sword();
 
     protected:

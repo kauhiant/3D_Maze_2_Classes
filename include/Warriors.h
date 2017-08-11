@@ -6,7 +6,7 @@
 class Warriors
 {
     public:
-        Warriors();
+        Warriors(Point Field);
         virtual ~Warriors();
 
         void add(Warrior* obj);
@@ -20,7 +20,7 @@ class Warriors
 
     private:
         std::vector<Warrior*> group;
-        int initPosition;//no sure need or not need
+        Point Field;
 };
 
 #endif // WARRIORS_H

@@ -1,9 +1,11 @@
 #include "Castle.h"
 
-Castle::Castle(int position, int level):level(level)
+Castle::Castle(int level):level(level)
 {
+    //setSpeed(0);
     setHP(500*level);
-    setValue(position);
+    //setPower(0);
+    //setAttackDistance(0);
 }
 
 Castle::~Castle()

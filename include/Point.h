@@ -5,7 +5,7 @@
 class Point
 {
     public:
-        Point():value(0){}
+        Point(int val = 0):value(val){}
 
         int getValue() { return value; }
 

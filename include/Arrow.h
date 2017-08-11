@@ -7,7 +7,7 @@
 class Arrow : public Warrior
 {
     public:
-        Arrow(int position);
+        Arrow();
         virtual ~Arrow();
 
     protected:

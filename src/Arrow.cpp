@@ -1,8 +1,7 @@
 #include "Arrow.h"
 
-Arrow::Arrow(int position)
+Arrow::Arrow()
 {
-    setValue(position);
     setSpeed(5);
     setHP(100);
     setPower(10);

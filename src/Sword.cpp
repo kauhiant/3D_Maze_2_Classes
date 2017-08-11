@@ -1,11 +1,11 @@
 #include "Sword.h"
 
-Sword::Sword(int position)
+Sword::Sword()
 {
+    setSpeed(10);
     setHP(100);
     setPower(10);
-    setSpeed(10);
-    setValue(position);
+    //setAttackDistance(0);
 }
 
 Sword::~Sword()

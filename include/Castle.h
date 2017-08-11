@@ -7,7 +7,7 @@
 class Castle : public Warrior
 {
     public:
-        Castle(int position,int level);
+        Castle(int level);
         virtual ~Castle();
 
     protected:
